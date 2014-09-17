@@ -27,7 +27,7 @@ document.addEventListener ("DOMContentLoaded", function() {
 
 function menuClicked(){
   //determined image display is block or not  - toggle the menu
-  	var toggle = document.querySelector(" .main-nav");
+  	var toggle = document.querySelector(" .mainnav");
   	if (toggle.style.display.block === hidden) {
   		toggle.style.display.block = block;
   	} else {
