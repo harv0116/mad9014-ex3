@@ -20,17 +20,17 @@ display:none;
 
 document.addEventListener ("DOMContentLoaded", function() {
 	//listen for image click
-	var toggle = document.querySelector(" .menu-toggle");
-	toggle.addEventListener('click',menuClicked);
+	var tag = document.querySelector(" .menu-toggle");
+	tag.addEventListener('click',menuClicked);
 	//call menu clicked
 });
 
 function menuClicked(){
   //determined image display is block or not  - toggle the menu
-  	var tag = document.querySelector(" .main-nav");
-  	if (tag.style.display.block === hidden) {
-  		tag.style.display.block = block;
+  	var toggle = document.querySelector(" .main-nav");
+  	if (toggle.style.display.block === hidden) {
+  		toggle.style.display.block = block;
   	} else {
-  		tag.style.display.block = hidden;
+  		toggle.style.display.block = hidden;
   	}
  }
