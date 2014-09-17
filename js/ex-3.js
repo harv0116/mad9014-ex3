@@ -27,10 +27,10 @@ document.addEventListener ("DOMContentLoaded", function() {
 
 function menuClicked(){
   //determined image display is block or not  - toggle the menu
-  	var toggle = document.querySelector(" .mainnav");
-  	if (toggle.style.display === none) {
-  		toggle.style.display = block;
+  	var toggle = document.querySelector(".mainnav");
+  	if (toggle.style.display === "none") {
+  		toggle.style.display = "block";
   	} else {
-  		toggle.style.display = none;
+  		toggle.style.display = "none";
   	}
  }
