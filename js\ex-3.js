@@ -20,10 +20,10 @@ display:none;
 
 document.addEventListener ("DOMContentLoaded", function() {
 	//listen for image click
-	var tag = document.querySelector(" .menu-toggle");
-	tag.addEventListener('click',menuClicked);
+	var toggle = document.querySelector(" .menu-toggle");
+	toggle.addEventListener('click',menuClicked);
 	//call menu clicked
-})
+});
 
 function menuClicked(){
   //determined image display is block or not  - toggle the menu
